@@ -3348,7 +3348,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051919235}
   - component: {fileID: 1051919234}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: paredes invisiveis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3453,7 +3453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1208595289}
   - component: {fileID: 1208595290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: paredes invisiveis (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4771,7 +4771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1774827607}
   - component: {fileID: 1774827608}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: chao
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6510,6 +6510,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a42e4a3663f1d114eb51c6272dbd552e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rayLength: 0
+  rayPositionOffset: 0
+  Ground:
+    serializedVersion: 2
+    m_Bits: 64
   moveSpeed: 3
   jumpSpeed: 3
 --- !u!1 &1945376182
